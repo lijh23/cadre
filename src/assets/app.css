@@ -1,0 +1,128 @@
+html,body,#app{
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+.el-button{
+    background:rgb(211, 4, 4);;
+}
+.el-menu--horizontal>.el-menu-item{
+    height: 35px!important;
+    line-height: 35px!important;
+    color: #FFFFFF;
+    border-radius: 4px;
+    border: none!important;
+  }
+.el-menu--horizontal>.el-submenu .el-submenu__title{
+    height: 35px!important;
+    line-height: 35px!important;
+     color: #FFFFFF!important;
+    border-radius: 4px; 
+    border: none!important;
+}
+.el-menu--horizontal>.el-menu-item.is-active {
+    border-bottom: none;
+    color: #AA0112!important;
+    background:#fff!important;
+}
+.el-submenu.is-active{
+    border-radius: 4px; 
+    border: none!important;
+}
+.el-menu--horizontal>.el-menu-item:hover{
+    /* color: #AA0112!important; */
+}
+.el-menu--horizontal>.el-submenu .el-submenu__title:hover{
+    /* color: #AA0112!important; */
+}
+ /*.is-opened{
+    color: #AA0112!important;
+    background-color: #fff!important;
+} */
+.el-menu--horizontal>.el-menu-item:hover i{
+    /* color: #AA0112!important; */
+}
+.el-menu--horizontal>.el-submenu .el-submenu__title:hover i{
+    /* color: #AA0112!important; */
+}
+.el-radio__input.is-checked + .el-radio__label {
+    color: #AA0112 !important;
+ }
+.el-radio__input.is-checked .el-radio__inner {
+     border-color: #AA0112!important;
+     background: #AA0112!important;
+}
+.el-radio__inner:hover{
+    border-color: #AA0112!important;
+}
+.el-menu--popup .el-menu-item{
+    width: 100px!important;
+    height: 100px!important;
+    border-bottom: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    display: inline-block!important;
+    float: left;
+}
+.el-menu--popup{
+    padding: 20px;
+    width: 310px;
+}
+.el-menu--popup i{
+     color: #AA0112!important;
+     font-size: 30px;
+}
+.el-menu--popup li:hover{
+    border-color: #AA0112!important;
+    background: #AA0112!important;
+}
+.item-subTitle{
+    text-align: center;
+    vertical-align: middle;
+}
+/* .el-submenu.is-opened .el-submenu__title{
+    color: #AA0112!important;
+    background:#fff!important;
+}
+.el-submenu.is-opened i{
+    color: #AA0112!important;
+} */
+/* .el-submenu__title:hover, .el-menu-item:focus, .el-menu-item:hover{
+    background-color: rgba(0, 0, 0, 0.411)!important;
+    color: #ffffff94!important;
+}
+.el-submenu__title:hover i, .el-menu-item:focus i, .el-menu-item:hover i{
+    
+    color: #ffffff94!important;
+} */
+.el-submenu__title:hover, .el-menu-item:focus, .el-menu-item:hover{
+    background-color: #EE872A!important;
+    color: #ffffff94!important;
+}
+.el-submenu__title:hover i, .el-menu-item:focus i, .el-menu-item:hover i{
+    
+    color: #ffffff94!important;
+}
+.el-submenu__title:hover span{
+    color: #ffffff94!important;
+}
+/* .el-submenu__title:hover span, .el-menu-item:focus span, .el-menu-item:hover span{
+    
+    color: #ffffff94!important;
+} */
+/* .is-active:hover{
+    color: #AA0112!important;
+    background:#fff!important;
+} */
+.is-active{
+    background-color: #fff!important;
+    color: #AA0112!important;
+}
+.is-active span{
+    color: #AA0112!important;
+}
+.is-active i{
+    color: #AA0112!important;
+}
+/* .el-menu--popup .el-menu-item:hover{
+    background-color: #AA0112;
+} */
